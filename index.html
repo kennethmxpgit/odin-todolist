@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href='style.css'>
+    <script src='script.js' defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a8cf661de4.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id='sidebar'>
+        <p class=header>Projects</p>
+        <div id="catContainer"></div>
+    </div>
+    <div id='mainBody'>
+        <p class=header>Tasks</p>
+        <div id="taskContainer"></div>
+    </div>
+    <div= id='detailBar'>
+        <p class=header>Task Details</p>
+        <div id=detContainer>
+            <div class='detItem'>
+                <p class=detHeader>Description</p>
+                <textarea id=description rows=5 cols=50 style="resize: none;">ahaa</textarea>
+            </div>
+            
+            <div class='detItem'>
+                <p class=detHeader>Priority</p>
+                <select id="priority" name="priority">
+                    <option value="high">High</option>
+                    <option value="normal">Normal</option>
+                    <option value="low">low</option>
+                  </select>
+            </div>
+            <div class='detItem'>
+                <p class=detHeader>Due Date</p>
+                <input id=duedate type="date"></input>
+            </div>
+            <div class='detItem'>
+                <p class=detHeader>Notes</p>
+                <textarea id=note rows=5 cols=50 style="resize: none;">Notes are written here</textarea>
+            </div>
+            <div class='detItem'>
+                <button id=save>Save</button>
+            </div>
+           
+            
+
+        </div>
+
+    </div>
+</body>
+</html>

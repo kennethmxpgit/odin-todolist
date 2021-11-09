@@ -1,0 +1,25 @@
+{
+  "name": "odin-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start -sw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennethmxpgit/odin-todolist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennethmxpgit/odin-todolist/issues"
+  },
+  "homepage": "https://github.com/kennethmxpgit/odin-todolist#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "lodash": "^4.17.21"
+  }
+}

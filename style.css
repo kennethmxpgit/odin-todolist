@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Helvetica;
+    user-select:none;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    display:flex;
+}
+#sidebar{
+    color:white;
+    box-sizing: border-box;
+    width:20vw;
+    height:100vh;
+    background-color:darkcyan;
+    padding:0% 0% 0% 2%;
+}
+#mainBody{
+    box-sizing: border-box;
+    width:40vw;
+    height:auto;
+    background-color:beige;
+    padding:0% 0% 0% 2%;
+}
+#detailBar{
+    box-sizing: border-box;
+    width:40vw;
+    height:auto;
+}
+.header{
+    box-sizing: border-box;
+    font-size:5vh;
+    font-weight:bold;
+    text-align:center;
+    height:fit-content;
+    padding:3vw 0 3vh 0;
+    margin-bottom:3vh;
+}
+
+.catItemBox{
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;   
+    flex:1 1 auto; 
+}
+
+.catItemBox:hover,.catItemSelected{
+    background-color:beige;
+    color:black;
+    
+}
+
+.catItemText{
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+    user-select:none;
+    font-size:3vh;
+    padding:1.5vw 0% 1.5vw 5%;
+}
+
+
+.catItemDel, .catEdit{
+    box-sizing: border-box;
+    margin-right:5%;
+    width:10%;
+    height:100%;
+    font-size:2rem;
+}
+
+.taskEdit, .taskDel{
+    box-sizing: border-box;
+    margin-right:3%;
+    width:10%;
+    height:100%;
+    font-size:2rem;
+}
+.catItemDel:hover{
+    background-color: darkcyan;
+}
+#catAddBtn{
+    width:100%;
+    padding:10% 0% 5% 0%;
+    text-align: center;
+}
+
+.classSelected{
+    background-color:beige;
+    color:black;
+}
+
+.taskItemBox{
+    background-color:beige;
+    color:black;
+    display:flex;
+    align-items: center;
+    padding-left:2%;
+    
+
+}
+
+.taskItemBox:hover, .taskSelected{
+    background-color:white;    
+    font-weight:bolder;
+}
+
+.taskText{
+    font-size:3vh;
+    padding-left:5%;
+    width:100%;
+    height:100%;
+    padding:2% 0% 2% 5%;
+}
+
+.taskDel{
+    padding-right:5%;
+
+}
+
+#detContainer{
+    padding:0% 0% 0% 10%;
+}
+.detHeader{
+    font-size:3vh;
+}
+
+.detItem{
+    padding:2% 0% 2% 0%;
+}
+
+#save{
+    height:5vh;
+    width:10vh;
+}
